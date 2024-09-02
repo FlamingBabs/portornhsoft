@@ -1,0 +1,182 @@
+/* src/About.css */
+
+/* Background color for the whole page */
+.about-page {
+    background-color: #f4e3d7; /* Light cream color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Container for the content */
+  .about-container {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* To ensure rounded corners */
+  }
+  
+  /* Left side styles */
+  .about-left {
+    flex: 1;
+    text-align: center;
+    background-color: #f4e3d7; /* Match the page background color */
+    padding: 20px;
+    border-top-left-radius: 15px; /* Match container's border-radius */
+    border-bottom-left-radius: 15px; /* Match container's border-radius */
+  }
+  
+  /* Profile photo styles */
+  .profile-photo {
+    width: 135px;
+    height: 150px;
+    border-radius: 50%; /* Makes the photo round */
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  /* Name and position styles */
+  .name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .position {
+    font-size: 18px;
+    color: gray;
+  }
+  
+  /* Right side styles */
+  .about-right {
+    flex: 2;
+    padding: 20px 30px;
+    background-color: white; /* Ensure this remains white */
+    border-top-right-radius: 15px; /* Match container's border-radius */
+    border-bottom-right-radius: 15px; /* Match container's border-radius */
+  }
+  
+  /* Title and subtitle styles */
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 20px;
+  }
+  
+  /* Buttons container */
+  .buttons {
+    margin-bottom: 20px;
+  }
+  
+  /* Button styles */
+  .btn {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(100, 195, 227); /* Bootstrap blue color */
+    border: none;
+    border-radius: 55px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  .btn:hover {
+    background-color: lightblue;
+  }
+  
+  /* Paragraph styles */
+  .description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Media Queries for Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column; /* Stack elements vertically */
+      background-color: #f4e3d7; /* Remove white background */
+      width: 100%; /* Full width on mobile */
+      max-width: none; /* Remove max width restriction */
+      box-shadow: none; /* Remove box shadow */
+      border-radius: 0; /* Remove border radius */
+      padding: 0; /* Remove padding */
+    }
+  
+    .about-left {
+      background-color: #f4e3d7; /* Match the page background color */
+      border-radius: 0; /* Remove border radius */
+      padding: 20px; /* Add padding */
+    }
+  
+    .about-right {
+      background-color: #f4e3d7; /* Match the page background color */
+      padding: 20px; /* Add padding */
+      border-radius: 0; /* Remove border radius */
+      text-align: center; /* Center text on mobile */
+    }
+  
+    .profile-photo {
+      width: 120px;
+      height: 120px;
+      margin-bottom: 10px; /* Reduce margin */
+    }
+  
+    .name {
+      font-size: 20px; /* Reduce font size */
+      margin-bottom: 5px; /* Reduce margin */
+    }
+  
+    .position {
+      font-size: 16px; /* Reduce font size */
+      color: gray;
+      margin-bottom: 15px; /* Add some space after the position */
+    }
+  
+    .title {
+      font-size: 24px; /* Adjust font size */
+      margin-bottom: 10px; /* Reduce margin */
+    }
+  
+    .subtitle {
+      font-size: 18px; /* Adjust font size */
+      margin-bottom: 15px; /* Adjust margin */
+    }
+  
+    .buttons {
+      display: flex;
+      justify-content: center; /* Center buttons */
+      flex-wrap: wrap; /* Wrap buttons if necessary */
+      margin-bottom: 20px; /* Adjust margin */
+    }
+  
+    .btn {
+      margin: 5px; /* Add margin around buttons */
+    }
+  
+    .description {
+      font-size: 14px; /* Adjust font size */
+      text-align: center; /* Center text on mobile */
+    }
+  }
+  

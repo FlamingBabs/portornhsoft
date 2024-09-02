@@ -1,0 +1,116 @@
+/* src/Business.css */
+
+/* Background and layout styles */
+.business-page {
+    background-color: #f4e3d7; /* Light cream color */
+    padding: 40px 20px;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .business-title {
+    font-size: 24px; /* Adjusted the title font size */
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .business-section {
+    width: 80%;
+    max-width: 900px;
+    margin-bottom: 40px;
+  }
+  
+  /* Individual business item styles */
+  .business-item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center vertically */
+    flex-wrap: wrap; /* Allow content to wrap for responsiveness */
+  }
+  
+  /* Left and right sections */
+  .business-item-left,
+  .business-item-right {
+    width: 48%; /* Each section takes half the width on larger screens */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+  }
+  
+  .business-item-left {
+    margin-right: 4%; /* Add some space between the left and right sections */
+  }
+  
+  /* Content styles */
+  .company-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .job-position {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 5px;
+  }
+  
+  .job-dates {
+    font-size: 12px;
+    color: #555;
+  }
+  
+  /* Right side content styles */
+  .job-description {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .business-section {
+      width: 100%; /* Full width on smaller screens */
+      padding: 0 15px;
+    }
+  
+    .business-item {
+      flex-direction: column; /* Stack content vertically on smaller screens */
+      padding: 15px;
+    }
+  
+    .business-item-left,
+    .business-item-right {
+      width: 100%; /* Full width for both sections on mobile */
+      margin-bottom: 15px; /* Space between sections */
+    }
+  
+    .business-item-left {
+      margin-right: 0; /* Remove right margin for mobile */
+    }
+  
+    .company-name {
+      font-size: 16px; /* Slightly smaller font size for mobile */
+    }
+  
+    .job-position {
+      font-size: 14px;
+    }
+  
+    .job-dates {
+      font-size: 12px;
+    }
+  
+    .job-description {
+      font-size: 13px;
+    }
+  }
+  

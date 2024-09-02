@@ -1,0 +1,82 @@
+/* src/Navbar.css */
+
+/* Base styles for the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: white;
+    position: relative;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    color: black;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+  }
+  
+  .nav-item {
+    display: flex;
+  }
+  
+  /* Menu items */
+  .nav-links {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .nav-links:hover {
+    color: lightblue;
+  }
+  
+  .nav-links.active {
+    color: lightblue;
+  }
+  
+  .menu-toggle {
+    display: none; 
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: black;
+  }
+  
+  .menu-toggle:focus {
+    outline: none;
+  }
+  
+  /* Show the menu-toggle button on smaller screens */
+  @media (max-width: 768px) {
+    .navbar-menu {
+      display: none; /* Ensure this is hidden by default */
+      position: absolute;
+      top: 50px;
+      right: 30px;
+      flex-direction: column;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      border-radius: 8px;
+    }
+  
+    .navbar-menu.show {
+      display: flex; /* Show menu items when 'show' class is added */
+    }
+  
+    .menu-toggle {
+      display: block; /* Show toggle button on smaller screens */
+    }
+  }
+  

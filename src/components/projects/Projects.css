@@ -1,0 +1,94 @@
+/* src/Projects.css */
+
+/* Background and layout styles */
+.projects-page {
+    background-color: #f4e3d7; /* Light cream color */
+    padding: 40px 20px;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .projects-title {
+    font-size: 24px; /* Title font size */
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Project square */
+  .project-square {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+    margin-bottom: 40px;
+  }
+  
+  .project-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .project-info {
+    width: 60%; /* Adjust as needed */
+  }
+  
+  .project-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .project-description {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .project-image {
+    width: 40%; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .project-square {
+      width: 100%; /* Full width on smaller screens */
+      padding: 15px;
+    }
+  
+    .project-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .project-info {
+      width: 100%;
+      margin-bottom: 20px; /* Space between text and image */
+    }
+  
+    .project-image {
+      width: 100%; /* Full width for the image on mobile */
+      height: auto;
+    }
+  
+    .projects-title {
+      font-size: 20px; /* Slightly smaller font size for mobile */
+    }
+  
+    .project-name {
+      font-size: 18px;
+    }
+  
+    .project-description {
+      font-size: 14px;
+    }
+  }
+  

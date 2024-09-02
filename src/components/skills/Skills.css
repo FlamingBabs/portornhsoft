@@ -1,0 +1,98 @@
+/* src/Skills.css */
+
+/* Background and layout styles */
+.skills-page {
+    background-color: #f4e3d7; /* Light cream color */
+    padding: 40px 20px;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skills-title {
+    font-size: 24px; /* Title font size */
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .skills-section {
+    width: 80%;
+    max-width: 900px;
+    margin-bottom: 40px;
+  }
+  
+  /* Section titles */
+  .section-title {
+    font-size: 20px; /* Adjusted title font size */
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Skills square */
+  .skills-square {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Skills list styles */
+  .skills-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .skills-column {
+    width: 48%; /* Each column takes half the width on larger screens */
+  }
+  
+  .skills-column ul {
+    list-style-type: disc; /* Bullet points for the list */
+    padding-left: 20px; /* Indentation for list items */
+  }
+  
+  .skills-column li {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .language-level {
+    font-size: 12px;
+    color: gray;
+    margin-top: 5px;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .skills-section {
+      width: 100%; /* Full width on smaller screens */
+      padding: 0 15px;
+    }
+  
+    .skills-column {
+      width: 100%; /* Full width for each column on mobile */
+      margin-bottom: 20px; /* Space between columns */
+    }
+  
+    .section-title {
+      font-size: 18px; /* Slightly smaller font size for mobile */
+    }
+  
+    .skills-column li {
+      font-size: 13px;
+    }
+  
+    .language-level {
+      font-size: 11px;
+    }
+  }
+  

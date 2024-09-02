@@ -1,0 +1,87 @@
+/* src/Contact.css */
+
+/* Background and layout styles */
+.contact-page {
+    background-color: #f4e3d7; /* Light cream color */
+    padding: 40px 20px;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+  }
+  
+  .contact-title {
+    font-size: 24px; /* Title font size */
+    font-weight: bold;
+    margin-bottom: 20px; /* Space between title and square */
+    text-align: center;
+  }
+  
+  /* Contact square */
+  .contact-square {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  /* Contact content */
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between items */
+  }
+  
+  /* Social media items */
+  .social-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Use the color of the parent element */
+  }
+  
+  .social-icon {
+    width: 24px; /* SVG icon size */
+    height: 24px; /* Maintain aspect ratio */
+    margin-right: 10px;
+  }
+  
+  .social-info {
+    font-size: 16px;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .contact-square {
+      width: 100%; /* Full width on smaller screens */
+      padding: 15px;
+    }
+  
+    .contact-title {
+      font-size: 20px; /* Slightly smaller font size for mobile */
+    }
+  
+    .social-icon {
+      width: 20px; /* Adjust SVG icon size for mobile */
+      height: 20px;
+    }
+  
+    .social-info {
+      font-size: 14px;
+    }
+  }
+  
