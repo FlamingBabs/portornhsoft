@@ -74,6 +74,10 @@ export const Skills = () => {
                   English
                   <p className="language-level">Professional, TOEFL ITP:600</p>
                 </li>
+              </ul>
+            </div>
+            <div className="skills-column">
+              <ul>
                 <li>
                   Bahasa Indonesia
                   <p className="language-level">Native</p>

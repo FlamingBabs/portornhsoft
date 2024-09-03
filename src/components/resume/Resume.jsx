@@ -17,11 +17,15 @@ const Resume = () => {
           </div>
           <div className="resume-item-right">
             <p className="job-description">
-              - Developed and maintained web applications using React and Node.js.
-              <br />
-              - Collaborated with cross-functional teams to define, design, and ship new features.
-              <br />
-              - Optimized applications for maximum speed and scalability.
+            - Create and maintained database for potential customer and sales. Create and maintained database server
+            <br />
+            - Design and create databases for various applications, including customer management, vendor management, payments, sales, and potential customer tracking.
+            <br />
+            - Develop database architecture, schema, and tables to optimize storage and performance.
+            <br />
+            - Implement and maintain database backup and recovery procedures.
+            <br /> 
+            - Establish and enforce database standards and guidelines to ensure consistent and efficient database operations.
             </p>
           </div>
         </div>
@@ -37,7 +41,13 @@ const Resume = () => {
             <p className="job-description">
               - Designed and developed user-friendly web pages using HTML, CSS, and JavaScript.
               <br />
-              - Ensured high performance on both mobile and desktop.
+              - Developing modular and reusable code components that streamline the development process, reduce redundancy, and enhance overall system efficiency.
+            <br></br>
+            - Designing, implementing, and maintaining high-performance APIs that serve as the backbone for various applications and services.
+            <br />
+            - Utilizing Object-Oriented Programming (OOP) principles to design and implement scalable and maintainable software architectures.
+            <br />
+            - Designed, developed, and implemented a customized Android launcher for Set-Top Box TV, providing an intuitive and user-friendly interface.
               <br />
               - Improved the overall UX by implementing responsive design principles.
             </p>
