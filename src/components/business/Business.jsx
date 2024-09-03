@@ -37,6 +37,20 @@ export const Business = () => {
             </p>
           </div>
         </div>
+        <div className="business-item">
+          <div className="business-item-left">
+            <h3 className="company-name">Zig TV</h3>
+            <p className="job-position">Co-Founder & Chief Technology Officer</p>
+            <p className="job-dates">January 2020 - Present</p>
+          </div>
+
+          <div className="business-item-right">
+            <p className="job-description">
+                Zig TV is a Television Platform that creates a new enviroment for home to be like how they used to, Zig TV offers something that's been missing in home for years
+                With the free internet that Zig Provides, it creates harmony and loving enviroment for your home.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
