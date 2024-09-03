@@ -47,7 +47,6 @@ export const Skills = () => {
                 <li>Problem-Solving</li>
                 <li>Adaptability</li>
                 <li>Leadership</li>
-                <li>Creativity</li>
               </ul>
             </div>
             <div className="skills-column">
@@ -55,8 +54,8 @@ export const Skills = () => {
                 <li>Time Management</li>
                 <li>Critical Thinking</li>
                 <li>Conflict Resolution</li>
-                <li>Organization</li>
                 <li>Mentoring</li>
+                <li>Creativity</li>
               </ul>
             </div>
           </div>

@@ -13,7 +13,7 @@ const Resume = () => {
           <div className="resume-item-left">
             <h3 className="company-name">PT Matrixnet Global Indonesia</h3>
             <p className="job-position">Database Administrator</p>
-            <p className="job-dates">February 2020 - February 2021</p>
+            <p className="job-dates">February 2022 - February 2023</p>
           </div>
           <div className="resume-item-right">
             <p className="job-description">
@@ -35,7 +35,7 @@ const Resume = () => {
           <div className="resume-item-left">
             <h3 className="company-name">PT Pinq Andalan Utama</h3>
             <p className="job-position">Application Developer</p>
-            <p className="job-dates">February 2022 - Current</p>
+            <p className="job-dates">February 2023 - Current</p>
           </div>
           <div className="resume-item-right">
             <p className="job-description">
