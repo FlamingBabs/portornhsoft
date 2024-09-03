@@ -35,9 +35,9 @@ export const About = () => {
           </div>
 
           <p className="description">
-            Hello! I'm Reyhan, a passionate software engineer. I have a strong background in building
-            scalable applications and working with modern technologies like
-            React, Golang etc. I also have businesses. In short i make things.
+          Hello! I'm Reyhan, a passionate software engineer 
+          with a strong background in building scalable applications using modern technologies like React and Golang. 
+          I also run several businesses. In short, I love creating and building things.
           </p>
         </div>
       </div>
