@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <strong>Muhammad Reyhan</strong>
+        <strong>RNH Software</strong>
       </div>
 
       <button className="menu-toggle" onClick={toggleMenu}>
