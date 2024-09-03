@@ -42,7 +42,6 @@ export const Projects = () => {
         </div>
       </div>
 
-      {/* Add more projects as needed */}
     </div>
   );
 };
