@@ -16,12 +16,13 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
+      {/* Replace the text with the logo image */}
       <div className="navbar-brand">
-        <strong>RNH Software</strong>
+        <img src="/logo.png" alt="RNH Software Logo" className="navbar-logo" />
       </div>
 
       <button className="menu-toggle" onClick={toggleMenu}>
-       <FaBars />
+        <FaBars />
       </button>
 
       {/* Right side - Menu items */}
