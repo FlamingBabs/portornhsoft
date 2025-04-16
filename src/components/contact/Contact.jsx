@@ -29,7 +29,7 @@ export const Contact = () => {
                 <p className="social-info">mreyhan_r</p>
               </a>
             </div>
-            <div className="social-item">
+            {/* <div className="social-item">
               <a href="https://x.com/m_reyhan_r" target="_blank" rel="noopener noreferrer" className="social-link">
                 <img
                   src="/assets/svg/twitter-x.svg"
@@ -38,7 +38,7 @@ export const Contact = () => {
                 />
                 <p className="social-info">@m_reyhan_r</p>
               </a>
-            </div>
+            </div> */}
             <div className="social-item">
               <a href="https://www.linkedin.com/in/muhammad-reyhan-6b85b3214/?trk=opento_sprofile_topcard" target="_blank" rel="noopener noreferrer" className="social-link">
                 <img
