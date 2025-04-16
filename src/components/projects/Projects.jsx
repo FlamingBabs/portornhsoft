@@ -14,7 +14,7 @@ export const Projects = () => {
           <div className="project-info">
             <h3 className="project-name">ANABEL</h3>
             <p className="project-description">
-             ANABEL is an application to help businesses to get alternative funding rather than borrowing from a bank that could get a rates.
+             ANABEL is an application to help businesses to get alternative funding by buying in wholesale of the product. ANABEL also provided a POS (Point of sales) to analyze your business sales and the most sold item would be available for the business to sell in wholesale to ANABEL.
             </p>
           </div>
           <img

@@ -20,6 +20,8 @@ export const Skills = () => {
                 <li>React.JS</li>
                 <li>Java</li>
                 <li>MySQL</li>
+                <li>ODP Bridge Design</li>
+                <li>FTTH Network Design and Deployment</li>
               </ul>
             </div>
             <div className="skills-column">
@@ -29,6 +31,8 @@ export const Skills = () => {
                 <li>Git</li>
                 <li>APIs</li>
                 <li>Figma</li>
+                <li>Fiber Optic Splicing & OTDR Testing</li>
+                <li>OLT/ONT Configuration</li>
               </ul>
             </div>
           </div>

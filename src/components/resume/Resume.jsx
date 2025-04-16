@@ -34,7 +34,7 @@ const Resume = () => {
         <div className="resume-item">
           <div className="resume-item-left">
             <h3 className="company-name">PT Pinq Andalan Utama</h3>
-            <p className="job-position">Application Developer</p>
+            <p className="job-position">Application Developer & Network Engineer</p>
             <p className="job-dates">February 2023 - Current</p>
           </div>
           <div className="resume-item-right">
@@ -50,6 +50,10 @@ const Resume = () => {
             - Designed, developed, and implemented a customized Android launcher for Set-Top Box TV, providing an intuitive and user-friendly interface.
               <br />
               - Improved the overall UX by implementing responsive design principles.
+              <br />
+              - Create and Design ODP Bridge.
+              <br />
+              - FTTH Development both active and passive device.
             </p>
           </div>
         </div>
@@ -69,7 +73,7 @@ const Resume = () => {
             <p className="job-description">
               - Specialized in software development, data structures and object oriented programming. 
               <br />
-              - Completed a thesis on alternative funding website.
+              - Completed a thesis on building and designing alternative funding web application using MySQL, GoLang and React JS.
             </p>
           </div>
         </div>

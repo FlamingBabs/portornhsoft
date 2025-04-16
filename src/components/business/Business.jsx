@@ -26,8 +26,8 @@ export const Business = () => {
 
         <div className="business-item">
           <div className="business-item-left">
-            <h3 className="company-name">PT Matel Digital Solution Division</h3>
-            <p className="job-position">Co-Founder & Chief Technology Officer</p>
+            <h3 className="company-name">PT. Matel Perifix Works</h3>
+            <p className="job-position">Co-Founder</p>
             <p className="job-dates">January 2019 - Present</p>
           </div>
 
@@ -40,7 +40,7 @@ export const Business = () => {
         <div className="business-item">
           <div className="business-item-left">
             <h3 className="company-name">Zig TV</h3>
-            <p className="job-position">Co-Founder & Chief Technology Officer</p>
+            <p className="job-position">Founder</p>
             <p className="job-dates">January 2020 - Present</p>
           </div>
 
