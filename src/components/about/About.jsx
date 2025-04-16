@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./About.css"; // Make sure to create the corresponding CSS file
+import "./About.css"; 
 
 export const About = () => {
   return (
@@ -20,7 +20,7 @@ export const About = () => {
         {/* Right Side */}
         <div className="about-right">
           <h2 className="title">Hello!</h2>
-          <h3 className="subtitle">Who I Am?</h3>
+          {/* <h3 className="subtitle">Who Am I?</h3> */}
 
           <div className="buttons">
             <Link to="/resume" className="btn">
@@ -33,7 +33,6 @@ export const About = () => {
               Skills
             </Link>
           </div>
-
           <p className="description">
           Hello! I'm Reyhan, a passionate software engineer 
           with a strong background in building scalable applications using modern technologies like React and Golang. 
